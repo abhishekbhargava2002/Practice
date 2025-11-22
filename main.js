@@ -26,3 +26,19 @@ btn.addEventListener("click", (e)=> {
     populate(value,currency);
 })
  
+
+
+
+
+//  let response=await fetch(url);
+//     let rJson=await response.json();
+//     document.querySelector(".output").style.display="block"; 
+//     console.log(rJson); 
+//     for(let key of Object.keys (rJson["data"])) {
+//         myStr +=`<tr>
+//                 <td>${key}</td>
+//                 <td>${rJson["data"][key]["code"]}</td>
+//                 <td>${Math.round(rJson["data"][key]["value"] * value)}</td>
+//                 </tr>
+//                 `
+//     }
